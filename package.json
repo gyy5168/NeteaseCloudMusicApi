@@ -10,7 +10,8 @@
     "prepare": "husky install",
     "pkgwin": "pkg . -t node14-win-x64 -o app",
     "pkglinux": "pkg . -t node14-linux-x64 -o app",
-    "pkgmacos": "pkg . -t node14-macos-x64 -o app"
+    "pkgmacos": "pkg . -t node14-macos-x64 -o app",
+    "cacheJson": "node scripts/cache.js"
   },
   "bin": "./app.js",
   "pkg": {
